@@ -1,0 +1,190 @@
+body {
+    background-color: #f0f2f5;
+  }
+  
+  .navbar-custom {
+    background-color: #343a40;
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link,
+  .navbar-custom .nav-item {
+    color: white;
+  }
+  
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .navbar-brand:hover {
+    color: #ffcc00;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #about .lead {
+    font-weight: 300;
+  }
+  
+  #about img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  #home {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#home .container {
+    position: relative;
+    z-index: 2;
+}
+
+.profile-photo {
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+#portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+#portfolio .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#portfolio .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.filter-btn.active {
+  background-color: #007bff;
+  color: #fff;
+}
+#blog .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#blog .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#blog .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#blog .card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+#blog .tags a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+#contact .form-control {
+  border-radius: 0;
+  border-color: #ddd;
+}
+
+#contact .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+#contact .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0;
+}
+
+#contact .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+#contact .social-icons a {
+  transition: color 0.3s ease;
+}
+
+#contact .social-icons a:hover {
+  color: #0056b3;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+footer .col-md-4 {
+  margin-bottom: 30px;
+}
+footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f8f9fa;
+}
+footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #f8f9fa;
+}
+.newsletter-input {
+  background-color: #444;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  width: calc(100% - 80px);
+  display: inline-block;
+}
+.newsletter-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #333;
+  cursor: pointer;
+}
+.newsletter-btn:hover {
+  background-color: #ddd;
+}
+.social-icons a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #ddd;
+}
+.social-icons a:hover {
+  color: #f8f9fa;
+}
